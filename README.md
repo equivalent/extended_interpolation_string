@@ -1,3 +1,6 @@
+[![Build Status](https://api.travis-ci.org/equivalent/extended_interpolation_string.png?branch=master)](http://travis-ci.org/equivalent/extended_interpolation_string)
+[![Code Climate](https://codeclimate.com/github/equivalent/extended_interpolation_string.png)](https://codeclimate.com/github/equivalent/extended_interpolation_string)
+
 # ExtendedInterpolationString
 
 When interpolating string with hash that includes lambda,
