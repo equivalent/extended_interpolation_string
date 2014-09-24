@@ -16,7 +16,7 @@ hello_string % { user: 'Joe', email_count: lambda { |user| user.email_count} }
 
 # using this gem
 extended_hello = hello_string.extended 
-extended_hello # => ExtendedInterpolationString
+extended_hello.class # => ExtendedInterpolationString
 extended_hello.interpolator = user
 extended_hello % { user: 'Joe', email_count: lambda { |user| user.email_count} }
 #  "hi Joe, you have 20 emails"
