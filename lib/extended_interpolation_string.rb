@@ -7,7 +7,6 @@ module ExtendedInterpolationString
   end
 
   class LambdaInterpolationString < DelegateClass(String)
-    VERSION = "0.0.1"
     INTP_PATERN = /%\s*{\s*(\w*)\s*}\.*/
     NoInterpolatorObjectGiven = Class.new(StandardError)
 
