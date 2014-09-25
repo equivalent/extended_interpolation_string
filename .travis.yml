@@ -9,5 +9,4 @@ rvm:
   - 2.1.2
   - rbx
   - ruby-head
-  - jruby-head
 
