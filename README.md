@@ -2,7 +2,7 @@
 [![Code Climate](https://codeclimate.com/github/equivalent/extended_interpolation_string.png)](https://codeclimate.com/github/equivalent/extended_interpolation_string)
 
 
-# ExtendedInterpolationString
+# Extended interpolation for ruby string
 
 When interpolating string with hash that includes lambda,
 you can pass interpolator object upon which the lambda is
